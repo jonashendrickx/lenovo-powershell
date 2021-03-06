@@ -22,3 +22,6 @@ To schedule with Task Scheduler:
     2. Source: 'Power-Troubleshooter'
     3. EventID: 1
 5. Add an action with 'Program/script' location set to 'C:\Windows\syswow64\WindowsPowerShell\v1.0\powershell.exe' and parameters '-file "path\to\script\auto-keyboard-backlight.ps1"'
+
+## Buy me a coffee
+- [PayPal](https://www.paypal.com/pools/c/create/share/8xukwldAVK)
