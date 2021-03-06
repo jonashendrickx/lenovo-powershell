@@ -16,5 +16,6 @@ If you want to schedule the script, we'll need to do this with task scheduler. T
 To schedule with Task Scheduler:
 1. Click 'Create Task'.
 2. Choose 'Run whether user is logged in or not'. (Make use sure user that executes script has permissions to run on this machine.)
-3. Triggers 'At startup', 'On an event'. Choose 'On an event' for sleep and hibernation compatibility.
-4. Add an action with 'Program/script' location set to 'C:\Windows\syswow64\WindowsPowerShell\v1.0\powershell.exe' and parameters '-file "path\to\script\auto-keyboard-backlight.ps1"'
+3. Add a trigger 'At startup'.
+4. Add a trigger 'On an event' if you want to support sleep and hibernation. You'll need to find the EventID in Windows Event Manager.
+5. Add an action with 'Program/script' location set to 'C:\Windows\syswow64\WindowsPowerShell\v1.0\powershell.exe' and parameters '-file "path\to\script\auto-keyboard-backlight.ps1"'
