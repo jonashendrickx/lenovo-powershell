@@ -23,5 +23,8 @@ To schedule with Task Scheduler:
     3. EventID: 1
 5. Add an action with '**Program/script**' location set to '**C:\Windows\syswow64\WindowsPowerShell\v1.0\powershell.exe**' and parameters '**-File "path\to\script\auto-keyboard-backlight.ps1"**'
 
+## Note
+You may need to either adjust the Powershell execution policies or sign the Powershell script if you plan on safely deploying this in your company.
+
 ## Buy me a coffee
 - [PayPal](https://www.paypal.com/pools/c/create/share/8xukwldAVK)
